@@ -1,0 +1,30 @@
+#1
+sed '/zoo/Id' pandas.txt > new_pandas.txt
+
+#2
+awk '{print $1,$4,$2}' pandas.txt | grep -v "name" | sort -k3 >> new_pandas2.txt
+
+#3
+awk '{print $5}' pandas.txt | sort >> new_pandas3.txt
+
+#4
+sed 's/female/F/' pandas.txt > pandas2.txt
+sed 's/male/M/' pandas2.txt > pandas3.txt
+
+#5 
+grep "October" pandas.txt | grep -c "female"
+
+#6
+nl pandas.txt >> pandas_lines.txt
+
+#7
+sed -n '1p ; 6p ; 17p' pandas.txt >> pandas_3lines.txt
+
+#8
+grep -i "x" pandas.txt >> pandas_x.txt
+
+#9
+awk '!seen[$5]++' pandas.txt >> pandas_unique.txt
+
+#10
+sort -k 4n pandas.txt | awk '$4 <= 10'| awk '{print $1,$4,$2,$3,$5}' >> pandas_10.txt
