@@ -1,0 +1,43 @@
+#1
+makeblastdb -in mystery_transcripts.fasta -dbtype nucl -out mystery_transcripts
+
+#2
+makeblastdb -in mystery_proteins.fasta -dbtype prot -out mystery_proteins
+
+#3
+blastn -query mystery_nucleotide_query.fasta -task megablast -db mystery_transcripts -out  myst_trans_blast_results.txt -evalue 1e-3 -max_hsps 5 -outfmt 7
+
+#4
+best hit: 
+T010027234997	91.965
+
+other hits: 
+T010003453160	91.351 
+T010027234995	91.351
+
+#5
+awk '$3 > 90' myst_trans_blast_results.txt >> most_similar.txt
+
+#6
+blastp -query mystery_protein_query.fasta -db mystery_proteins -out  myst_prot_blast_results.txt -evalue 1e-3 -max_hsps 15 -outfmt 7
+
+#7
+best hit: 
+P010027090796 87.805
+
+other hits:
+P010027090798 87.398
+P010027073865 84.756
+P010027077695 84.553
+P010027071558 77.876
+P010027071553 77.876
+
+#8
+Coffea arabica
+
+#9
+Gardenia jasminoides
+
+#10
+Putative Catalase gene
+
