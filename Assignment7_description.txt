@@ -1,0 +1,5 @@
+Assignment 7 description
+
+In the figure we see two distinc regions. On the center to left there is a coding region with an exon labeled on the layer annoation.gff. The red peaks in the layers RNAseq represent the areas where RNA is transcribed.
+
+On the right there is a non-coding region with open chromatins. The open chromatin regions are defined by the green peaks in the ATAC layers and the yellow bars in the OCRs and ncOCR layers. The OCR layers define areas of open chromatins based on the ATAC peaks and the ncOCR layers represent the non coding open chromatin regions.
