@@ -10,4 +10,4 @@ Assignment8
 	Right primer
 		Sequence: NC_035094.1:35121725-35121747
 		coordinates: TGGCAGGTCCGGTTATAAAATA
-5. We expect an albino rainbow trout (this actually has been done before with CRISPR! https://doi.org/10.1371/journal.pone.0108622)
+5. We expect an albino rainbow trout
