@@ -1,0 +1,13 @@
+Assignment8
+
+1. Oncorhynchus mykiss (rainbow trout)
+2. tyrosinase (tyr)
+3. Rank 1 target sequence: GATCCGATACCTCCACGTCGCGG
+		genomic location: NC_035094.1:35121807
+4. 	Left primer
+		Sequence: TGTGTTTTTCCTCCAGTGTTTG
+		coordinates: NC_035094.1:35121955-35121977
+	Right primer
+		Sequence: NC_035094.1:35121725-35121747
+		coordinates: TGGCAGGTCCGGTTATAAAATA
+5. We expect an albino rainbow trout (this actually has been done before with CRISPR! https://doi.org/10.1371/journal.pone.0108622)
