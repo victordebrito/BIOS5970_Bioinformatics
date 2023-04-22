@@ -1,0 +1,68 @@
+Using Ensembl:
+
+1.) How many splice variants does the human BRCA2 gene have?
+	15
+
+2.) How many exons are in the longest splice variant(s) of BRCA2?
+	27
+
+3.) How many introns are in the longest splice variant(s) of BRCA2?
+	26
+
+4.) What chromosome is this gene on?
+	Chromosome 13: 32,315,508-32,400,268 forward strand.
+
+5.) What are the gene synonyms of BRCA2?
+	BRCC2, FACD, FAD, FAD1, FANCD, FANCD1, XRCC11
+
+6.) How many orthologs of human BRCA2 are found in the African ostrich?
+	1
+
+7.) In the human hemoglobin transcript ENST00000330597.5 HBG1-201, what is the sequence of the second exon?
+	GCTCCTGGTTGTCTACCCATGGACCCAGAGGTTCTTTGACAGCTTTGGCAACCTGTCCTC
+TGCCTCTGCCATCATGGGCAACCCCAAAGTCAAGGCACATGGCAAGAAGGTGCTGACTTC
+CTTGGGAGATGCCACAAAGCACCTGGATGATCTCAAGGGCACCTTTGCCCAGCTGAGTGA
+ACTGCACTGTGACAAGCTGCATGTGGATCCTGAGAACTTCAAG
+
+8.) What is the length of the first intron of this hemoglobin transcript?
+	122 bp
+
+9.) How many pseudogenes are in the narwal genome annotation (NGI_Narwhal_1, INSDC Assembly GCA_005190385.2)?
+	723
+
+Using Genomicus:
+
+10.) What two genes flank BRCA2 in the human genome?
+	ZAR1L and N4BP2L1
+
+11.) What genes flank the sonic hedgehog gene(s) in the betta fish?
+	rnf32 and rbm33a
+
+12.) How many copies of shh are in the betta fish?
+	1
+
+13.) How many copies of shh are in Atlantic salmon?
+	4
+
+Using NCBI:
+
+14.) How many genome assemblies are available for Bos taurus on NCBI?
+	11
+
+15.) How many of the above assemblies are assembled into chromosomes?
+	9
+
+16.) How many chromosomes does Bos taurus have excluding sex chromosomes?
+	29
+
+17.) Which cow chromosome is the longest?
+	1
+
+18.) How many proteins are annotated on chromosome 2 in the assembly:  Bos taurus ARS-UCD1.3?
+	2,748
+
+19.) If I am interested in learning more about the gene associate with the transcript: NM_001104822, what is a good publication to read on PubMed?
+	Yes, Pasquier et al. 2016 https://pubmed.ncbi.nlm.nih.gov/27189481/
+
+20.) What is the translated coding sequence of NM_001104822?
+MDLLAKASVLLLLLLSLSNAQTDNMEEAENGSSKEEIDESELEDVSSIIFRMNNNSMEELLEGDLVLPKTRNAMKCFGAPDSCRWPKSSNGIVKVPYVVSDNYESDEKETIRNAMKEFAEKTCIHFVPRNNERAYLSLEPRFGCKSMMGYVGDKQVVVLQRFGCIKHAVIQHELLHALGFYHEHTRSDRDQHVKINWENIIKDFTHNFDKNDTDNLGTPYDYGSIMHYGRTAFGKDRKETITPIPNPKAAIGQTERMSDIDILRVNKLYKC	
